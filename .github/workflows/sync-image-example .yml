@@ -29,5 +29,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/home-assistant:2024.7.0.dev202406130219 docker://registry.cn-hangzhou.aliyuncs.com/github91/home-assistant:2024.7.0.dev202406130219
-  
+         skopeo copy docker://docker.io/home-assistant:2024.6 docker://registry.cn-hangzhou.aliyuncs.com/github91/home-assistant:2024.6
